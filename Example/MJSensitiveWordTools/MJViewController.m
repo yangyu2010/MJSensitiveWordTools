@@ -7,8 +7,12 @@
 //
 
 #import "MJViewController.h"
+#import <MJSensitiveWordTools.h>
+
 
 @interface MJViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
 
 @end
 
@@ -17,13 +21,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [MJSensitiveWordTools loadData];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)dealloc {
+    [MJSensitiveWordTools clearData];
 }
+
+- (IBAction)action:(id)sender {
+    NSString *word = [MJSensitiveWordTools filterWord:self.textField.text];
+    NSLog(@"(%@)是敏感词", word);
+}
+
 
 @end

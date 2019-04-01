@@ -7,79 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12729C404196517D4B4662F727481CC3 /* MJSensitiveWordTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0042BA0B1C3803164ECB60C698EFD7 /* MJSensitiveWordTools-dummy.m */; };
-		2BBFD735818F51DF16A3E978B20E6DA5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E6E8E75FE0F6FF7FC5C95759C457B4 /* ReplaceMe.m */; };
-		57419A6D6387D9127D1855AE18DEE95F /* MJSensitiveWordTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67135BE3D1D8FDBC4B89F263A3F609B5 /* MJSensitiveWordTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B743787A575E02F7B9C4AB1BEABD8E /* Pods-MJSensitiveWordTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A0CBC769C546C8AF921EAFCEC327AF /* Pods-MJSensitiveWordTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B890FB54328C269AAE0433E509CCBBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A151343CBD53A1CA521DB6481DEE1D51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C2973E8052512536044BEB58B62EABFE /* Pods-MJSensitiveWordTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F3845FB1B35A701F0737785FD4E102 /* Pods-MJSensitiveWordTools_Example-dummy.m */; };
-		DA16CF6099C7C761449D47E1EA0661AF /* Pods-MJSensitiveWordTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC38116194385D831891F359768B4B /* Pods-MJSensitiveWordTools_Tests-dummy.m */; };
-		E7C6B85370320A641F439FB6FA028782 /* Pods-MJSensitiveWordTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E33D453F9C986128E7955FACBD7203 /* Pods-MJSensitiveWordTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F91D7346A275BB751B35951D7AD39479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		88AA2637200F79DBB6C19F7BAE8E30DF /* MJSensitiveWordTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B70713C4A04A4ACDC9F3E7B61E6E33 /* MJSensitiveWordTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C3E216F079CE165DAD710D81EF50ED /* MJSensitiveWordTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFA0B593836413BC4A8A40B7FD9B31A /* MJSensitiveWordTools-dummy.m */; };
+		BBF502375B6FE6F4452BFE11D75DDC49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BD823E0B21FD3840C993819B2D4879A7 /* MJSensitiveWordTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59973D3650AB5A2A124C4EDC9C43C285 /* MJSensitiveWordTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2973E8052512536044BEB58B62EABFE /* Pods-MJSensitiveWordTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593D9012AA90FF31FA76A33FEC75036D /* Pods-MJSensitiveWordTools_Example-dummy.m */; };
+		CF0ABBB5C77CC4A037C325191514C905 /* MJSensitiveWordTools.m in Sources */ = {isa = PBXBuildFile; fileRef = AD74C44AA2C72B78AA940065ECDFEEBB /* MJSensitiveWordTools.m */; };
+		E7C6B85370320A641F439FB6FA028782 /* Pods-MJSensitiveWordTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6919ECCA5EF0D5E865884FF92DA2DA52 /* Pods-MJSensitiveWordTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		834987465121E460A92655F87C5A1C78 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD34FEACF1AD33A84A8A6FACB83E3EC4;
-			remoteInfo = "Pods-MJSensitiveWordTools_Example";
-		};
 		AF46B6DA1B3F4126124C6274CD260556 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F368CC5C2FA2DF62E639372286DAB6FC;
+			remoteGlobalIDString = E27971B898F5FFA998F9389AAEB62AFF;
 			remoteInfo = MJSensitiveWordTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E6E8E75FE0F6FF7FC5C95759C457B4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MJSensitiveWordTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		104A16CAE0E613B99321A332C06ADEA7 /* MJSensitiveWordTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJSensitiveWordTools-prefix.pch"; sourceTree = "<group>"; };
-		2BE4B272F66FC26B99D64C6F25E04A91 /* Pods-MJSensitiveWordTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJSensitiveWordTools_Tests-Info.plist"; sourceTree = "<group>"; };
-		2CFCED6F8DBF52864A9570FCF079602A /* Pods-MJSensitiveWordTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJSensitiveWordTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		30B10C015BD5AB4CA0B8E2461853113D /* Pods-MJSensitiveWordTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJSensitiveWordTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		44983999A9FED56F7EDFD99E844E20F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4DEC38116194385D831891F359768B4B /* Pods-MJSensitiveWordTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJSensitiveWordTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		5AF670DDAFBC99857B930403E6D41B56 /* Pods-MJSensitiveWordTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJSensitiveWordTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		60DAA5AAABD38712E702F721EFD0C39D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		67135BE3D1D8FDBC4B89F263A3F609B5 /* MJSensitiveWordTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJSensitiveWordTools-umbrella.h"; sourceTree = "<group>"; };
-		6C54B3C0CA53D8D7A74A6B4BFDF81474 /* MJSensitiveWordTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJSensitiveWordTools.modulemap; sourceTree = "<group>"; };
-		6E21263E5DD656843C52DA9730B8E294 /* Pods-MJSensitiveWordTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJSensitiveWordTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7518A909C7575E5B2BF779BB8F86D131 /* MJSensitiveWordTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJSensitiveWordTools.xcconfig; sourceTree = "<group>"; };
-		77F3845FB1B35A701F0737785FD4E102 /* Pods-MJSensitiveWordTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJSensitiveWordTools_Example-dummy.m"; sourceTree = "<group>"; };
-		7E00E6A0F7B6EB09F9BC88AC95EFBE50 /* MJSensitiveWordTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MJSensitiveWordTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8C1E44D7E461725D45DDB0FDF0C08CA7 /* Pods-MJSensitiveWordTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJSensitiveWordTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E8EE9A3E53955895EA9576BDC518EB3 /* Pods-MJSensitiveWordTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJSensitiveWordTools_Example.modulemap"; sourceTree = "<group>"; };
-		8F6BE33DD56F58324C325B16CE71BEE4 /* Pods-MJSensitiveWordTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJSensitiveWordTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		968EB00473295DBBF9B18628C31A7976 /* Pods-MJSensitiveWordTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJSensitiveWordTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C4B48DA3522ADC23E591FCD3DE8E86E /* Pods-MJSensitiveWordTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJSensitiveWordTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F6E6722F32609C29CB3CA6AAD801F99 /* Pods-MJSensitiveWordTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJSensitiveWordTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3D74122FC12978CEEAD415544A8190CA /* MJSensitiveWordTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJSensitiveWordTools.modulemap; sourceTree = "<group>"; };
+		415B39750FC2962DA857DBA550F9D0DE /* Pods-MJSensitiveWordTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJSensitiveWordTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50526DD46EA7E58F129EEFA2946E5561 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		54B70713C4A04A4ACDC9F3E7B61E6E33 /* MJSensitiveWordTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJSensitiveWordTools.h; path = MJSensitiveWordTools/Classes/MJSensitiveWordTools.h; sourceTree = "<group>"; };
+		5776A75A3508B0B36327F298B7CC3648 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		593D9012AA90FF31FA76A33FEC75036D /* Pods-MJSensitiveWordTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJSensitiveWordTools_Example-dummy.m"; sourceTree = "<group>"; };
+		59973D3650AB5A2A124C4EDC9C43C285 /* MJSensitiveWordTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJSensitiveWordTools-umbrella.h"; sourceTree = "<group>"; };
+		680B385AAFF6272BE928C112750A76DC /* Pods-MJSensitiveWordTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJSensitiveWordTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6919ECCA5EF0D5E865884FF92DA2DA52 /* Pods-MJSensitiveWordTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJSensitiveWordTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		723FACDFB01AB2B16565294FA819C8C7 /* MJSensitiveWordTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MJSensitiveWordTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E623F5B62295CA6DCA49CC3E7FE9F28 /* Pods-MJSensitiveWordTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJSensitiveWordTools_Example.modulemap"; sourceTree = "<group>"; };
+		7E9566C692979AC6AE2DE9286E58AD1A /* Pods-MJSensitiveWordTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJSensitiveWordTools_Example-Info.plist"; sourceTree = "<group>"; };
+		81F385DC7EC7B7BD1C15B434904C6D73 /* Pods_MJSensitiveWordTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJSensitiveWordTools_Example.framework; path = "Pods-MJSensitiveWordTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F7F9DDB56220D4DB0A9CDAE92FE623E /* Pods_MJSensitiveWordTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJSensitiveWordTools_Tests.framework; path = "Pods-MJSensitiveWordTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A423FEE2732E52725E85A4A728E0A61C /* Pods-MJSensitiveWordTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJSensitiveWordTools_Tests.modulemap"; sourceTree = "<group>"; };
-		A8C2FBD9B91C91BCB1AB7DED0DD64803 /* Pods-MJSensitiveWordTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJSensitiveWordTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B36476ED51DB5D7918DE4A52B48C59AC /* Pods_MJSensitiveWordTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJSensitiveWordTools_Example.framework; path = "Pods-MJSensitiveWordTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD74C44AA2C72B78AA940065ECDFEEBB /* MJSensitiveWordTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJSensitiveWordTools.m; path = MJSensitiveWordTools/Classes/MJSensitiveWordTools.m; sourceTree = "<group>"; };
+		ADFA0B593836413BC4A8A40B7FD9B31A /* MJSensitiveWordTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJSensitiveWordTools-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE0042BA0B1C3803164ECB60C698EFD7 /* MJSensitiveWordTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJSensitiveWordTools-dummy.m"; sourceTree = "<group>"; };
-		D360081980756708D6D6E56EF9BFC7D6 /* Pods-MJSensitiveWordTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJSensitiveWordTools_Example-Info.plist"; sourceTree = "<group>"; };
-		D38CEC317C212512A3185A363E579725 /* MJSensitiveWordTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJSensitiveWordTools-Info.plist"; sourceTree = "<group>"; };
-		E2E7AC85FD0E141BE0DABCF61BF7AA22 /* MJSensitiveWordTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJSensitiveWordTools.framework; path = MJSensitiveWordTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4E33D453F9C986128E7955FACBD7203 /* Pods-MJSensitiveWordTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJSensitiveWordTools_Example-umbrella.h"; sourceTree = "<group>"; };
-		F7A0CBC769C546C8AF921EAFCEC327AF /* Pods-MJSensitiveWordTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJSensitiveWordTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D118A4627C75AD723960C03DE9D99242 /* MJSensitiveWordTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJSensitiveWordTools.framework; path = MJSensitiveWordTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A5D08BB3D6540F5B422B8FF31DC78C /* Pods-MJSensitiveWordTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJSensitiveWordTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DDF00BC8DC2E3BE6E21EC4216467E744 /* MJSensitiveWordTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJSensitiveWordTools.xcconfig; sourceTree = "<group>"; };
+		E8D6563C571F72C8C51907E506833571 /* Pods-MJSensitiveWordTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJSensitiveWordTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF9C6B9DEE5DCCFCFB36846F3EFA770C /* MJSensitiveWordTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJSensitiveWordTools-Info.plist"; sourceTree = "<group>"; };
+		FB959D8E1FD0C16E40711626FD1B6125 /* MJSensitiveWordTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJSensitiveWordTools-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01B5FDA2FE13A1DA9D0C0CA8BF2B3331 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A151343CBD53A1CA521DB6481DEE1D51 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		32498F0C3A5D842E8F15C1EA945BA356 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,79 +63,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8BFFA20EEA84239BA2A2C0B5D338865 /* Frameworks */ = {
+		ABFD719BF1CE4170758454B75DF50C13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91D7346A275BB751B35951D7AD39479 /* Foundation.framework in Frameworks */,
+				BBF502375B6FE6F4452BFE11D75DDC49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14FEF020EA8A4DA30B6AE22AFC490DF7 /* Pods-MJSensitiveWordTools_Tests */ = {
+		14618479AEC0EC2C4830DE53700DFAA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A423FEE2732E52725E85A4A728E0A61C /* Pods-MJSensitiveWordTools_Tests.modulemap */,
-				968EB00473295DBBF9B18628C31A7976 /* Pods-MJSensitiveWordTools_Tests-acknowledgements.markdown */,
-				8C1E44D7E461725D45DDB0FDF0C08CA7 /* Pods-MJSensitiveWordTools_Tests-acknowledgements.plist */,
-				4DEC38116194385D831891F359768B4B /* Pods-MJSensitiveWordTools_Tests-dummy.m */,
-				2BE4B272F66FC26B99D64C6F25E04A91 /* Pods-MJSensitiveWordTools_Tests-Info.plist */,
-				F7A0CBC769C546C8AF921EAFCEC327AF /* Pods-MJSensitiveWordTools_Tests-umbrella.h */,
-				6E21263E5DD656843C52DA9730B8E294 /* Pods-MJSensitiveWordTools_Tests.debug.xcconfig */,
-				9C4B48DA3522ADC23E591FCD3DE8E86E /* Pods-MJSensitiveWordTools_Tests.release.xcconfig */,
+				D118A4627C75AD723960C03DE9D99242 /* MJSensitiveWordTools.framework */,
+				81F385DC7EC7B7BD1C15B434904C6D73 /* Pods_MJSensitiveWordTools_Example.framework */,
 			);
-			name = "Pods-MJSensitiveWordTools_Tests";
-			path = "Target Support Files/Pods-MJSensitiveWordTools_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1D37A085C97334423B9CB3D7FEBEABDD /* Development Pods */ = {
+		7DA051F6BE43563D82F4A35AAEFDE357 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B9EECC7818EA66FA13D4A5A54259EC67 /* MJSensitiveWordTools */,
+				50526DD46EA7E58F129EEFA2946E5561 /* LICENSE */,
+				723FACDFB01AB2B16565294FA819C8C7 /* MJSensitiveWordTools.podspec */,
+				5776A75A3508B0B36327F298B7CC3648 /* README.md */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2572F2900C25D5E0DD6205204615D58A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C54B3C0CA53D8D7A74A6B4BFDF81474 /* MJSensitiveWordTools.modulemap */,
-				7518A909C7575E5B2BF779BB8F86D131 /* MJSensitiveWordTools.xcconfig */,
-				CE0042BA0B1C3803164ECB60C698EFD7 /* MJSensitiveWordTools-dummy.m */,
-				D38CEC317C212512A3185A363E579725 /* MJSensitiveWordTools-Info.plist */,
-				104A16CAE0E613B99321A332C06ADEA7 /* MJSensitiveWordTools-prefix.pch */,
-				67135BE3D1D8FDBC4B89F263A3F609B5 /* MJSensitiveWordTools-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MJSensitiveWordTools";
-			sourceTree = "<group>";
-		};
-		34731945371D9C042F274F6B64CBF4F9 /* Pods-MJSensitiveWordTools_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8E8EE9A3E53955895EA9576BDC518EB3 /* Pods-MJSensitiveWordTools_Example.modulemap */,
-				8F6BE33DD56F58324C325B16CE71BEE4 /* Pods-MJSensitiveWordTools_Example-acknowledgements.markdown */,
-				2CFCED6F8DBF52864A9570FCF079602A /* Pods-MJSensitiveWordTools_Example-acknowledgements.plist */,
-				77F3845FB1B35A701F0737785FD4E102 /* Pods-MJSensitiveWordTools_Example-dummy.m */,
-				A8C2FBD9B91C91BCB1AB7DED0DD64803 /* Pods-MJSensitiveWordTools_Example-frameworks.sh */,
-				D360081980756708D6D6E56EF9BFC7D6 /* Pods-MJSensitiveWordTools_Example-Info.plist */,
-				E4E33D453F9C986128E7955FACBD7203 /* Pods-MJSensitiveWordTools_Example-umbrella.h */,
-				5AF670DDAFBC99857B930403E6D41B56 /* Pods-MJSensitiveWordTools_Example.debug.xcconfig */,
-				30B10C015BD5AB4CA0B8E2461853113D /* Pods-MJSensitiveWordTools_Example.release.xcconfig */,
-			);
-			name = "Pods-MJSensitiveWordTools_Example";
-			path = "Target Support Files/Pods-MJSensitiveWordTools_Example";
-			sourceTree = "<group>";
-		};
-		6250E55437C70CD83AE3452588A7AA6C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				34731945371D9C042F274F6B64CBF4F9 /* Pods-MJSensitiveWordTools_Example */,
-				14FEF020EA8A4DA30B6AE22AFC490DF7 /* Pods-MJSensitiveWordTools_Tests */,
-			);
-			name = "Targets Support Files";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -171,45 +101,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A077597FB3B23C6E7EFA62D6F4E719A1 /* Products */ = {
+		B55816F84AB0F44CBB9027BB1081CB70 /* MJSensitiveWordTools */ = {
 			isa = PBXGroup;
 			children = (
-				E2E7AC85FD0E141BE0DABCF61BF7AA22 /* MJSensitiveWordTools.framework */,
-				B36476ED51DB5D7918DE4A52B48C59AC /* Pods_MJSensitiveWordTools_Example.framework */,
-				9F7F9DDB56220D4DB0A9CDAE92FE623E /* Pods_MJSensitiveWordTools_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B9EECC7818EA66FA13D4A5A54259EC67 /* MJSensitiveWordTools */ = {
-			isa = PBXGroup;
-			children = (
-				06E6E8E75FE0F6FF7FC5C95759C457B4 /* ReplaceMe.m */,
-				BD3153C264A173FC65B677DA0BF10C85 /* Pod */,
-				2572F2900C25D5E0DD6205204615D58A /* Support Files */,
+				54B70713C4A04A4ACDC9F3E7B61E6E33 /* MJSensitiveWordTools.h */,
+				AD74C44AA2C72B78AA940065ECDFEEBB /* MJSensitiveWordTools.m */,
+				7DA051F6BE43563D82F4A35AAEFDE357 /* Pod */,
+				EF616C02FB2B74AD41AC629F9AD178EA /* Support Files */,
 			);
 			name = MJSensitiveWordTools;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BD3153C264A173FC65B677DA0BF10C85 /* Pod */ = {
+		B56BD24B57EF96E439F0DDECD036BBD2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				44983999A9FED56F7EDFD99E844E20F5 /* LICENSE */,
-				7E00E6A0F7B6EB09F9BC88AC95EFBE50 /* MJSensitiveWordTools.podspec */,
-				60DAA5AAABD38712E702F721EFD0C39D /* README.md */,
+				D699225EEE2BB381627C281E7001CFB7 /* Pods-MJSensitiveWordTools_Example */,
 			);
-			name = Pod;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1D37A085C97334423B9CB3D7FEBEABDD /* Development Pods */,
+				DE3F2E7D5EECA9431063C24C29BC70BB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				A077597FB3B23C6E7EFA62D6F4E719A1 /* Products */,
-				6250E55437C70CD83AE3452588A7AA6C /* Targets Support Files */,
+				14618479AEC0EC2C4830DE53700DFAA8 /* Products */,
+				B56BD24B57EF96E439F0DDECD036BBD2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +138,45 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D699225EEE2BB381627C281E7001CFB7 /* Pods-MJSensitiveWordTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E623F5B62295CA6DCA49CC3E7FE9F28 /* Pods-MJSensitiveWordTools_Example.modulemap */,
+				415B39750FC2962DA857DBA550F9D0DE /* Pods-MJSensitiveWordTools_Example-acknowledgements.markdown */,
+				E8D6563C571F72C8C51907E506833571 /* Pods-MJSensitiveWordTools_Example-acknowledgements.plist */,
+				593D9012AA90FF31FA76A33FEC75036D /* Pods-MJSensitiveWordTools_Example-dummy.m */,
+				680B385AAFF6272BE928C112750A76DC /* Pods-MJSensitiveWordTools_Example-frameworks.sh */,
+				7E9566C692979AC6AE2DE9286E58AD1A /* Pods-MJSensitiveWordTools_Example-Info.plist */,
+				6919ECCA5EF0D5E865884FF92DA2DA52 /* Pods-MJSensitiveWordTools_Example-umbrella.h */,
+				0F6E6722F32609C29CB3CA6AAD801F99 /* Pods-MJSensitiveWordTools_Example.debug.xcconfig */,
+				D3A5D08BB3D6540F5B422B8FF31DC78C /* Pods-MJSensitiveWordTools_Example.release.xcconfig */,
+			);
+			name = "Pods-MJSensitiveWordTools_Example";
+			path = "Target Support Files/Pods-MJSensitiveWordTools_Example";
+			sourceTree = "<group>";
+		};
+		DE3F2E7D5EECA9431063C24C29BC70BB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B55816F84AB0F44CBB9027BB1081CB70 /* MJSensitiveWordTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF616C02FB2B74AD41AC629F9AD178EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D74122FC12978CEEAD415544A8190CA /* MJSensitiveWordTools.modulemap */,
+				DDF00BC8DC2E3BE6E21EC4216467E744 /* MJSensitiveWordTools.xcconfig */,
+				ADFA0B593836413BC4A8A40B7FD9B31A /* MJSensitiveWordTools-dummy.m */,
+				EF9C6B9DEE5DCCFCFB36846F3EFA770C /* MJSensitiveWordTools-Info.plist */,
+				FB959D8E1FD0C16E40711626FD1B6125 /* MJSensitiveWordTools-prefix.pch */,
+				59973D3650AB5A2A124C4EDC9C43C285 /* MJSensitiveWordTools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MJSensitiveWordTools";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,44 +190,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3614D14D3495A9DDAF2C36C0CB56B31 /* Headers */ = {
+		A9A5BD887687E1D52A56649BC1681889 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B743787A575E02F7B9C4AB1BEABD8E /* Pods-MJSensitiveWordTools_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D853F5868B1DE4CC59609F70A6D96138 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57419A6D6387D9127D1855AE18DEE95F /* MJSensitiveWordTools-umbrella.h in Headers */,
+				BD823E0B21FD3840C993819B2D4879A7 /* MJSensitiveWordTools-umbrella.h in Headers */,
+				88AA2637200F79DBB6C19F7BAE8E30DF /* MJSensitiveWordTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2BA040B864BB18317996688636EAC76B /* Pods-MJSensitiveWordTools_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C00C02A9CA1CBD4850C09B444B7E03B6 /* Build configuration list for PBXNativeTarget "Pods-MJSensitiveWordTools_Tests" */;
-			buildPhases = (
-				A3614D14D3495A9DDAF2C36C0CB56B31 /* Headers */,
-				088D34C25079F1F62592D935F5790463 /* Sources */,
-				C8BFFA20EEA84239BA2A2C0B5D338865 /* Frameworks */,
-				F93D54403CC3C9F2A95504896BBD30D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6906C5CC7BDF6D153D852A0F57DBACE7 /* PBXTargetDependency */,
-			);
-			name = "Pods-MJSensitiveWordTools_Tests";
-			productName = "Pods-MJSensitiveWordTools_Tests";
-			productReference = 9F7F9DDB56220D4DB0A9CDAE92FE623E /* Pods_MJSensitiveWordTools_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		AD34FEACF1AD33A84A8A6FACB83E3EC4 /* Pods-MJSensitiveWordTools_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23336E8D9D5F9F4E7EA96312F0BE7484 /* Build configuration list for PBXNativeTarget "Pods-MJSensitiveWordTools_Example" */;
@@ -286,17 +218,17 @@
 			);
 			name = "Pods-MJSensitiveWordTools_Example";
 			productName = "Pods-MJSensitiveWordTools_Example";
-			productReference = B36476ED51DB5D7918DE4A52B48C59AC /* Pods_MJSensitiveWordTools_Example.framework */;
+			productReference = 81F385DC7EC7B7BD1C15B434904C6D73 /* Pods_MJSensitiveWordTools_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F368CC5C2FA2DF62E639372286DAB6FC /* MJSensitiveWordTools */ = {
+		E27971B898F5FFA998F9389AAEB62AFF /* MJSensitiveWordTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58073CC232FADB9B69FE3BF0B4B50193 /* Build configuration list for PBXNativeTarget "MJSensitiveWordTools" */;
+			buildConfigurationList = C5F819CE39373E5334AC9651A64139D5 /* Build configuration list for PBXNativeTarget "MJSensitiveWordTools" */;
 			buildPhases = (
-				D853F5868B1DE4CC59609F70A6D96138 /* Headers */,
-				892BF25BB5EC5DCF3BE56B49F18CD956 /* Sources */,
-				01B5FDA2FE13A1DA9D0C0CA8BF2B3331 /* Frameworks */,
-				CE913B5703F43F4DACC1E565D9818BD4 /* Resources */,
+				A9A5BD887687E1D52A56649BC1681889 /* Headers */,
+				81767D380D1E7BD3C8F840D6944E80BE /* Sources */,
+				ABFD719BF1CE4170758454B75DF50C13 /* Frameworks */,
+				AC93554F3E8302C3443E46A81C532412 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -304,7 +236,7 @@
 			);
 			name = MJSensitiveWordTools;
 			productName = MJSensitiveWordTools;
-			productReference = E2E7AC85FD0E141BE0DABCF61BF7AA22 /* MJSensitiveWordTools.framework */;
+			productReference = D118A4627C75AD723960C03DE9D99242 /* MJSensitiveWordTools.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,13 +256,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A077597FB3B23C6E7EFA62D6F4E719A1 /* Products */;
+			productRefGroup = 14618479AEC0EC2C4830DE53700DFAA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F368CC5C2FA2DF62E639372286DAB6FC /* MJSensitiveWordTools */,
+				E27971B898F5FFA998F9389AAEB62AFF /* MJSensitiveWordTools */,
 				AD34FEACF1AD33A84A8A6FACB83E3EC4 /* Pods-MJSensitiveWordTools_Example */,
-				2BA040B864BB18317996688636EAC76B /* Pods-MJSensitiveWordTools_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -343,14 +274,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE913B5703F43F4DACC1E565D9818BD4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F93D54403CC3C9F2A95504896BBD30D6 /* Resources */ = {
+		AC93554F3E8302C3443E46A81C532412 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,14 +284,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		088D34C25079F1F62592D935F5790463 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA16CF6099C7C761449D47E1EA0661AF /* Pods-MJSensitiveWordTools_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63D66341566B736529FDE175DFD989C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,28 +292,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		892BF25BB5EC5DCF3BE56B49F18CD956 /* Sources */ = {
+		81767D380D1E7BD3C8F840D6944E80BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12729C404196517D4B4662F727481CC3 /* MJSensitiveWordTools-dummy.m in Sources */,
-				2BBFD735818F51DF16A3E978B20E6DA5 /* ReplaceMe.m in Sources */,
+				A2C3E216F079CE165DAD710D81EF50ED /* MJSensitiveWordTools-dummy.m in Sources */,
+				CF0ABBB5C77CC4A037C325191514C905 /* MJSensitiveWordTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6906C5CC7BDF6D153D852A0F57DBACE7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MJSensitiveWordTools_Example";
-			target = AD34FEACF1AD33A84A8A6FACB83E3EC4 /* Pods-MJSensitiveWordTools_Example */;
-			targetProxy = 834987465121E460A92655F87C5A1C78 /* PBXContainerItemProxy */;
-		};
 		DF8751385794FBADFC9DC0FB2F9CF67D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJSensitiveWordTools;
-			target = F368CC5C2FA2DF62E639372286DAB6FC /* MJSensitiveWordTools */;
+			target = E27971B898F5FFA998F9389AAEB62AFF /* MJSensitiveWordTools */;
 			targetProxy = AF46B6DA1B3F4126124C6274CD260556 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,9 +373,70 @@
 			};
 			name = Release;
 		};
+		1FC62C2E4E49F0581B9137584E91C11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF00BC8DC2E3BE6E21EC4216467E744 /* MJSensitiveWordTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools.modulemap";
+				PRODUCT_MODULE_NAME = MJSensitiveWordTools;
+				PRODUCT_NAME = MJSensitiveWordTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3361F10EAE946835D260F47617508BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF00BC8DC2E3BE6E21EC4216467E744 /* MJSensitiveWordTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools.modulemap";
+				PRODUCT_MODULE_NAME = MJSensitiveWordTools;
+				PRODUCT_NAME = MJSensitiveWordTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3A4681CE3CA0A57EC3A6ECDC3D09A0F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF670DDAFBC99857B930403E6D41B56 /* Pods-MJSensitiveWordTools_Example.debug.xcconfig */;
+			baseConfigurationReference = 0F6E6722F32609C29CB3CA6AAD801F99 /* Pods-MJSensitiveWordTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -560,104 +531,9 @@
 			};
 			name = Debug;
 		};
-		453350D14BB7C80E1E349A6EC4AD43D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7518A909C7575E5B2BF779BB8F86D131 /* MJSensitiveWordTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools.modulemap";
-				PRODUCT_MODULE_NAME = MJSensitiveWordTools;
-				PRODUCT_NAME = MJSensitiveWordTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		62132EAA8AD9F5D4FDFFDEDD47070DBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7518A909C7575E5B2BF779BB8F86D131 /* MJSensitiveWordTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MJSensitiveWordTools/MJSensitiveWordTools.modulemap";
-				PRODUCT_MODULE_NAME = MJSensitiveWordTools;
-				PRODUCT_NAME = MJSensitiveWordTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7016D88F1CC8D89C94C15024C86733B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C4B48DA3522ADC23E591FCD3DE8E86E /* Pods-MJSensitiveWordTools_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MJSensitiveWordTools_Tests/Pods-MJSensitiveWordTools_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MJSensitiveWordTools_Tests/Pods-MJSensitiveWordTools_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B6FCC6E3904BDDDF41E3D87E41EE5AF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30B10C015BD5AB4CA0B8E2461853113D /* Pods-MJSensitiveWordTools_Example.release.xcconfig */;
+			baseConfigurationReference = D3A5D08BB3D6540F5B422B8FF31DC78C /* Pods-MJSensitiveWordTools_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -689,39 +565,6 @@
 			};
 			name = Release;
 		};
-		E3C9BE778F9C21042AA04B2D995790F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E21263E5DD656843C52DA9730B8E294 /* Pods-MJSensitiveWordTools_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MJSensitiveWordTools_Tests/Pods-MJSensitiveWordTools_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MJSensitiveWordTools_Tests/Pods-MJSensitiveWordTools_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -743,20 +586,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58073CC232FADB9B69FE3BF0B4B50193 /* Build configuration list for PBXNativeTarget "MJSensitiveWordTools" */ = {
+		C5F819CE39373E5334AC9651A64139D5 /* Build configuration list for PBXNativeTarget "MJSensitiveWordTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62132EAA8AD9F5D4FDFFDEDD47070DBA /* Debug */,
-				453350D14BB7C80E1E349A6EC4AD43D2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C00C02A9CA1CBD4850C09B444B7E03B6 /* Build configuration list for PBXNativeTarget "Pods-MJSensitiveWordTools_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3C9BE778F9C21042AA04B2D995790F1 /* Debug */,
-				7016D88F1CC8D89C94C15024C86733B5 /* Release */,
+				3361F10EAE946835D260F47617508BF3 /* Debug */,
+				1FC62C2E4E49F0581B9137584E91C11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

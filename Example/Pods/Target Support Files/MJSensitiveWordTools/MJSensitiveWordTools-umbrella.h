@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MJSensitiveWordTools.h"
 
 FOUNDATION_EXPORT double MJSensitiveWordToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MJSensitiveWordToolsVersionString[];
