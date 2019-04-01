@@ -1,0 +1,6 @@
+framework module Pods_MJSensitiveWordTools_Tests {
+  umbrella header "Pods-MJSensitiveWordTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

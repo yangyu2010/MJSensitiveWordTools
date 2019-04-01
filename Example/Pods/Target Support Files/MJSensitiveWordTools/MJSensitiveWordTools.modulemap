@@ -1,0 +1,6 @@
+framework module MJSensitiveWordTools {
+  umbrella header "MJSensitiveWordTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

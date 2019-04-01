@@ -1,0 +1,16 @@
+PODS:
+  - MJSensitiveWordTools (0.1.0)
+
+DEPENDENCIES:
+  - MJSensitiveWordTools (from `../`)
+
+EXTERNAL SOURCES:
+  MJSensitiveWordTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJSensitiveWordTools: 8b0a5fd0056c46c7f865192e24171927bcff7f1c
+
+PODFILE CHECKSUM: bde4c0797e1faa4c1a19b7e59e09742c858ccfa6
+
+COCOAPODS: 1.6.1
