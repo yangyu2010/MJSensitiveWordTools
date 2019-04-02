@@ -30,12 +30,15 @@ static NSMutableDictionary *_dictSensitive;
     // 加载文件
     NSArray *arrSensitiveWord = nil;
 #ifdef FILESOURCE_ENABLE
-    arrSensitiveWord = [FileSource dataWithFileName:@"SensitiveWord"];
+    NSDictionary *dict = [FileSource dataWithFileName:@"SensitiveWord"];
+    arrSensitiveWord = dict[@"list"];
 #else
     // 没有导入模块, 读取mainBundle目录下的SensitiveWord.plist
     NSString *path = [[NSBundle mainBundle] pathForResource:@"SensitiveWord" ofType:@"plist"];
-    arrSensitiveWord = [NSArray arrayWithContentsOfFile:path];
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+    arrSensitiveWord = dict[@"list"];
 #endif
+
     
     if (arrSensitiveWord == nil ||
         arrSensitiveWord.count == 0) {
